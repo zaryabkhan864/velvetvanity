@@ -1,26 +1,21 @@
-import React from "react";
-import CategoryCard from "./CategoryCard.jsx";
-
-
 function Categories() {
+  const categories = [
+    { name: "New arrivals", image: "#" },
+    { name: "skincare", image: "#" },
+    { name: "Makeup", image: "#" },
+  ];
+
   return (
-    <div>
-      categories
-      {/* <ul>
-        <li>New Arrivals</li>
-        <li>Bestsellers</li>
-        <li>Skincare</li>
-        <li>Makeup</li>
-        <li>Hair</li>
-        <li>Accessories</li>
-        <li>Blog</li>
-        <li>Sale</li>
-      </ul> */}
-
-      <CategoryCard/>
-
-      
-    </div>
+    <section>
+      <div>
+        {categories.map((category, index) => (
+          <div key={index}>
+            {/* <img src={category.image} alt={category.name} /> */}
+            <h3>{category.name}</h3>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 
