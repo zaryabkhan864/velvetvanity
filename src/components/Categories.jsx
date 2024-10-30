@@ -1,17 +1,17 @@
 function Categories() {
   const categories = [
-    { name: "New arrivals", image: "#" },
-    { name: "skincare", image: "#" },
-    { name: "Makeup", image: "#" },
+    { name: "New arrivals", image: "../constants/newarrival.png" },
+    { name: "skincare", image: "../constants/skincare.png" },
+    { name: "Makeup", image: "../constants/makeup.png" },
   ];
 
   return (
-    <section>
-      <div>
+    <section className="py-1- bg-white">
+      <div className="flex justify-center space-x-8">
         {categories.map((category, index) => (
-          <div key={index}>
-            {/* <img src={category.image} alt={category.name} /> */}
-            <h3>{category.name}</h3>
+          <div key={index} className="text-center">
+            <img src={category.image} alt={category.name} />
+            <h3 className="mt-4 text-lg text-gray-800">{category.name}</h3>
           </div>
         ))}
       </div>
