@@ -1,21 +1,13 @@
+import React from "react";
 import "./App.css";
-import Banner from "./components/Banner.jsx";
-import Header from "./components/Header.jsx";
-import Categories from "./components/Categories.jsx";
-import Products from "./components/Products.jsx";
-import Promo from "./components/Promo.jsx";
-import Footer from "./components/Footer.jsx";
+import Product from "./components/Products/Product";
+
 
 function App() {
   return (
-    <>
-      <Banner />
-      <Header />
-      <Categories />
-      <Products />
-      <Promo />
-      <Footer />
-    </>
+    <React.Fragment>
+      <Product />
+    </React.Fragment>
   );
 }
 
