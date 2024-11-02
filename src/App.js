@@ -1,9 +1,9 @@
 import "./App.css";
-import Banner from "./components/Banner.jsx";
+import Banner from "./components/Banner/Banner.jsx";
 import Header from "./components/Header.jsx";
-import Categories from "./components/Categories.jsx";
-import Products from "./components/Products.jsx";
-import Promo from "./components/Promo.jsx";
+import Categories from "./components/Categories/Categories.jsx";
+import Products from "./components/Products/Products.jsx";
+import Promo from "./components/Promo/Promo.jsx";
 import Footer from "./components/Footer.jsx";
 
 function App() {
