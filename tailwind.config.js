@@ -17,10 +17,10 @@ module.exports = {
       fontFamily: {
         Sen: ["Sen", "sans-serif"],
       },
-      color: {
+      colors: {
         lavender: "#e1aeff",
-        vividpink: "ff78c4",
-        lightpink: "ffbdf7",
+        vividpink: "#ff78c4",
+        lightpink: "#ffbdf7",
       },
     },
   },

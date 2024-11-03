@@ -1,24 +1,21 @@
 import React from "react";
+import Navbar from "./Navbar.jsx";
 
 function Banner() {
   return (
-    <header>
-      <nav className="flex  justify-between">
-        <div>
-          <a href="#">VELVETVANITY</a>
-        </div>
-        <div>
-          <a href="#">New arrivals</a>
-          <a href="#">Search</a>
-          <a href="#">Blog</a>
-          <a href="#">Sale</a>
-        </div>
-      </nav>
+    <header className="bg-gradient-to-br from-lavender via-vividpink to-lightpink">
+      <Navbar />
+
       <div className="flex relative items-center justify-around">
         <div className="p-10 ">
           <h1 className="text-32px">CLEARER SKIN THIS WAY!</h1>
           <p>Our new skincare line features clarifying ingredients</p>
-          <button>Shop Now</button>
+          <button
+            className="bg-gradient-to-r from-lightpink to-lavender text-18px font-black
+          w-[302px] h-[52px] top-96 left-[2px] text-white mt-7"
+          >
+            Shop Now
+          </button>
         </div>
         <div className="flex ralative items-center ">
           <div className="relative">
