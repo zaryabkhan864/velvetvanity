@@ -21,15 +21,14 @@ function Banner() {
             Shop Now
           </button>
         </div>
-        <div className="text-white " >
-          <div className="w-[222px] h-[17px] text-32pxmy-10">
+        <div className="text-white relative">
+          <div className="w-[222px] h-[17px] text-32px">
             <h1>We Say yes to...</h1>
           </div>
           <div className="w-[246px] h-[68px] font-Regular text-20px my-10">
             <p>Vitamins, antioxidants, botanicals and other clean ingrediens</p>
           </div>
-
-          <div className="w-[140px] h-[140px] my-10">
+          <div className="w-[140px] h-[140px] my-10 absolute">
             <img
               src={require("../../constants/arrow.png")}
               alt="arrow"
@@ -38,30 +37,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      {/* <div className="flex px-5 item-center relative">
-        <div className="flex-1">
-          <h1>Clearer skin this way!</h1>
-          <p>our new skincare line features powerful clarifying ingredients</p>
-          <button>SHOP NOW</button>
-        </div>
-        <div>
-          <div>
-            <h1>We Say yes to</h1>
-          </div>
-          <div>
-            <p>Vitamins, antioxidants, botanicals and other clean ingrediens</p>
-          </div>
-
-          <div className="w-[140px] h-[140px]">
-            <img
-              src={require("../../constants/arrow.png")}
-              alt="arrow"
-              className="w-[109px] h-[109px] -rotate-180"
-            />
-          </div>
-        </div>
-      </div> */}
-      <div className="absolute top-[79px] left-[567px] w-[609px] h-[601px] ">
+      <div className="absolute top-[79px] left-[700px] w-[609px] h-[601px] ">
         <img
           src={require("../../constants/banner.png")}
           alt="Banner"
