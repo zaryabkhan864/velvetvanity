@@ -16,10 +16,12 @@ module.exports = {
         "46px": "2.875rem",
         "48px": "3rem",
         "64px": "4rem",
+        "72px": "4.5rem",
+        "600px": "37.5rem",
       },
       fontWeight: {
         LightItalic: 300,
-        "Regular ": 400,
+        Regular: 400,
         Medium: 500,
         "SemiBold ": 600,
         Bold: 700,
