@@ -22,13 +22,13 @@ function Banner() {
           </button>
         </div>
         <div className="text-white relative">
-          <div className="w-[222px] h-[17px] text-32px">
+          <div className="w-[222px] h-[17px] text-32px absolute right-[200px] top-[100px]" >
             <h1>We Say yes to...</h1>
           </div>
-          <div className="w-[246px] h-[68px] font-Regular text-20px my-10">
+          <div className="w-[246px] h-[68px] font-Regular text-20px relative right-[100px] top-[150px]">
             <p>Vitamins, antioxidants, botanicals and other clean ingrediens</p>
           </div>
-          <div className="w-[140px] h-[140px] my-10 absolute">
+          <div className="w-[140px] h-[140px] my-10 relative top-[150px]">
             <img
               src={require("../../constants/arrow.png")}
               alt="arrow"
