@@ -3,33 +3,70 @@ import Navbar from "./Navbar.jsx";
 
 function Banner() {
   return (
-    <header className="bg-gradient-to-br from-lavender via-vividpink to-lightpink">
+    <header className="h-[680px] bg-gradient-to-br from-lavender via-vividpink to-lightpink">
       <Navbar />
 
-      <div className="flex relative items-center justify-around">
-        <div className="p-10 ">
-          <h1 className="text-32px">CLEARER SKIN THIS WAY!</h1>
-          <p>Our new skincare line features clarifying ingredients</p>
+      <div className="flex relative items-center px-10">
+        <div className="flex-1 pl-[100px] pt-[328px] text-white">
+          <h1 className="font-Sen font-Black text-40px">
+            CLEARER SKIN THIS WAY!
+          </h1>
+          <p className="text-20px">
+            Our new skincare line features clarifying ingredients
+          </p>
           <button
             className="bg-gradient-to-r from-lightpink to-lavender text-18px font-black
-          w-[302px] h-[52px] top-96 left-[2px] text-white mt-7"
+          w-[302px] h-[52px] px-[80px] py-[17px] text-white my-2"
           >
             Shop Now
           </button>
         </div>
-        <div className="flex ralative items-center ">
-          <div className="relative">
+        <div className="text-white " >
+          <div className="w-[222px] h-[17px] text-32pxmy-10">
+            <h1>We Say yes to...</h1>
+          </div>
+          <div className="w-[246px] h-[68px] font-Regular text-20px my-10">
+            <p>Vitamins, antioxidants, botanicals and other clean ingrediens</p>
+          </div>
+
+          <div className="w-[140px] h-[140px] my-10">
             <img
-              src={require("../../constants/banner.png")}
-              alt="Banner"
-              className="w-[609px] h-[601px] relative"
+              src={require("../../constants/arrow.png")}
+              alt="arrow"
+              className="w-[109px] h-[109px] -rotate-180"
             />
           </div>
+        </div>
+      </div>
+      {/* <div className="flex px-5 item-center relative">
+        <div className="flex-1">
+          <h1>Clearer skin this way!</h1>
+          <p>our new skincare line features powerful clarifying ingredients</p>
+          <button>SHOP NOW</button>
+        </div>
+        <div>
           <div>
-            <h2>we say yes to...</h2>
-            <p>vitamins, antioxidants, botanicals and other clean ingrediens</p>
+            <h1>We Say yes to</h1>
+          </div>
+          <div>
+            <p>Vitamins, antioxidants, botanicals and other clean ingrediens</p>
+          </div>
+
+          <div className="w-[140px] h-[140px]">
+            <img
+              src={require("../../constants/arrow.png")}
+              alt="arrow"
+              className="w-[109px] h-[109px] -rotate-180"
+            />
           </div>
         </div>
+      </div> */}
+      <div className="absolute top-[79px] left-[567px] w-[609px] h-[601px] ">
+        <img
+          src={require("../../constants/banner.png")}
+          alt="Banner"
+          className="w-full h-full object-cover"
+        />
       </div>
     </header>
   );

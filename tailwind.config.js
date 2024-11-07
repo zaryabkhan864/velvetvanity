@@ -11,8 +11,20 @@ module.exports = {
         "20px": "1.25rem",
         "24px": "1.5rem",
         "32px": "2rem",
+        "40px": "2.5rem",
+        "44px": "2.75rem",
+        "46px": "2.875rem",
         "48px": "3rem",
         "64px": "4rem",
+      },
+      fontWeight: {
+        LightItalic: 300,
+        "Regular ": 400,
+        Medium: 500,
+        "SemiBold ": 600,
+        Bold: 700,
+        ExtraBold: 800, // Adjust based on your needs
+        Black: 900,
       },
       fontFamily: {
         Sen: ["Sen", "sans-serif"],
